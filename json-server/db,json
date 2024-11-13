@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "password": "123456",
+      "rol": "Estudiante"
+    },
+    {
+      "id": "2",
+      "nombre": "Maria",
+      "password": "123456",
+      "rol": "Docente"
+    },
+    {
+      "id": "3",
+      "nombre": "Tapia",
+      "password": "123456",
+      "rol": "Estudiante"
+    },
+    {
+      "id": "4",
+      "nombre": "Taylor",
+      "password": "123456",
+      "rol": "Docente"
+    },
+    {
+      "id": "8ec2",
+      "nombre": "alejandro",
+      "password": "1234",
+      "rol": "Docente"
+    },
+    {
+      "id": "b386",
+      "nombre": "Cata",
+      "password": "1234",
+      "rol": "Estudiante"
+    },
+    {
+      "id": "2521",
+      "nombre": "Bárbara",
+      "password": "qwerty",
+      "rol": "Docente"
+    }
+  ]
+}

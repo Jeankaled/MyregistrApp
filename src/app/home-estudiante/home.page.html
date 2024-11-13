@@ -1,0 +1,48 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>RegistrApp</ion-title>
+    <img 
+      src="https://www.duoc.cl/wp-content/themes/wordpress-duoc-cl/images/logo-duoc.svg" 
+      alt="Duoc" 
+      width="200px"
+      slot="end" 
+      class="floating"  
+    >
+  </ion-toolbar>
+</ion-header>
+
+
+
+<br>
+<br>
+
+
+<ion-content [fullscreen]="true" class="ion-padding-horizontal">
+  <ion-card>
+    
+  </ion-card>
+  <ion-title class="ion-padding-top ion-text-center">
+    <ion-label>
+      <h1>Bienvenido</h1>
+      <br>
+    </ion-label>
+  </ion-title>  
+  <ion-card class="ion-padding-horizontal">
+    <ion-label><h2 class="ion-padding-horizontal">Aqui podras registrar tu asistencia</h2></ion-label>
+    <br>
+    <ion-button>Presente Profe</ion-button>
+    <br>
+    <ion-button href="https://experienciavivo.duoc.cl/alumnos/asistencias" > Ver asistencia</ion-button>
+  </ion-card>
+
+
+  <ion-button expand="full" (click)="scanQRCode()">Escanear QR</ion-button>
+  
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="warning">
+    <ion-button (click)="goBack()">Atras</ion-button>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,54 @@
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>RegistrApp</ion-title>
+    <img
+      src="https://www.duoc.cl/wp-content/themes/wordpress-duoc-cl/images/logo-duoc.svg"
+      alt="Duoc"
+      width="200xp"
+      slot="end"
+    />
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Login</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Login</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <form [formGroup]="formularioLogin">
+        <ion-item>
+          <ion-label position="floating">Nombre de usuario</ion-label>
+          <ion-input formControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input formControlName="password" type="password"></ion-input>
+        </ion-item>
+      </form>
+      <ion-button (click)="ingresar()">Ingresar</ion-button><br>
+      <ion-button routerLink="/registro">Registrarse </ion-button>
+      
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+
+<ion-footer>
+  <ion-toolbar color="warning">
+    <p class="ion-text-center">
+      Instituto Profesional Duoc UC Acreditado 7 años 
+      <br><br> Mesa de Ayuda + 56 4 4220 10 98
+    </p>
+  </ion-toolbar>
+</ion-footer>
