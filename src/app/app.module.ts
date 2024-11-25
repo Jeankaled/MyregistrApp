@@ -9,13 +9,15 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { QRScanner } from '@ionic-native/qr-scanner/ngx';
+import { QrCodeModule } from 'ng-qrcode';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+
 
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,HttpClientModule],
-  providers: [ QRScanner,{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy,
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,HttpClientModule,QrCodeModule],
+  providers: [ { provide: RouteReuseStrategy, useClass: IonicRouteStrategy,
     
   }],
   bootstrap: [AppComponent],

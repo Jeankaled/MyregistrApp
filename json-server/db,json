@@ -41,6 +41,83 @@
       "nombre": "Bárbara",
       "password": "qwerty",
       "rol": "Docente"
+    },
+    {
+      "id": "9064",
+      "nombre": "David",
+      "password": "1234",
+      "rol": "Docente"
+    }
+  ],
+  "clases": [
+    {
+      "clase": "Aplicaciones moviles-001D",
+      "qr": ""
+    },
+    {
+      "id": "a645",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T22:33:59.248Z"
+    },
+    {
+      "id": "59d4",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T22:57:30.145Z"
+    },
+    {
+      "id": "65c1",
+      "clases": "Calidad de software-005D",
+      "qr": "Calidad de software-005D-2024-11-24T23:00:33.660Z"
+    },
+    {
+      "id": "5dcf",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:42:22.792Z"
+    },
+    {
+      "id": "5719",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:42:48.886Z"
+    },
+    {
+      "id": "26ba",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:43:41.595Z"
+    },
+    {
+      "id": "cebd",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:44:50.323Z"
+    },
+    {
+      "id": "f847",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:46:08.356Z"
+    },
+    {
+      "id": "a2f0",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-24T23:46:35.363Z"
+    },
+    {
+      "id": "6fbf",
+      "clases": "Programacion Web-004D",
+      "qr": "Programacion Web-004D-2024-11-24T23:46:40.842Z"
+    },
+    {
+      "id": "13e6",
+      "clases": "Aplicaciones moviles-002D",
+      "qr": "Aplicaciones moviles-002D-2024-11-24T23:46:42.457Z"
+    },
+    {
+      "id": "ea0e",
+      "clases": "Calidad de software-005D",
+      "qr": "Calidad de software-005D-2024-11-24T23:46:43.540Z"
+    },
+    {
+      "id": "fcd3",
+      "clases": "Calidad de software-005D",
+      "qr": "Calidad de software-005D-2024-11-24T23:46:44.218Z"
     }
   ]
 }
