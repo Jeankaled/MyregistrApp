@@ -13,7 +13,6 @@
   },
   "private": true,
   "dependencies": {
-    
     "@angular/animations": "^18.0.0",
     "@angular/common": "^18.0.0",
     "@angular/compiler": "^18.0.0",
@@ -26,7 +25,7 @@
     "@capacitor/android": "^6.2.0",
     "@capacitor/app": "6.0.1",
     "@capacitor/camera": "^6.0.2",
-    "@capacitor/core": "^6.1.2",
+    "@capacitor/core": "^6.2.0",
     "@capacitor/haptics": "6.0.1",
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
@@ -34,7 +33,6 @@
     "animate.css": "^4.1.1",
     "animations": "^0.0.0",
     "cordova-plugin-camera": "^7.0.0",
-    "cordova-plugin-qrscanner": "^3.0.1",
     "ionicons": "^7.0.0",
     "json-server": "^1.0.0-beta.3",
     "ng-qrcode": "^18.0.0",

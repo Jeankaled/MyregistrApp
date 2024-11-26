@@ -18,7 +18,6 @@ dependencies {
     implementation "androidx.core:core:1.6.+"
     implementation "com.android.support:support-v4:27.+"
 }
-apply from: "../../node_modules/cordova-plugin-qrscanner/src/android/qrscanner.gradle"
 apply from: "../../node_modules/phonegap-plugin-barcodescanner/src/android/barcodescanner.gradle"
 
 if (hasProperty('postBuildExtras')) {
