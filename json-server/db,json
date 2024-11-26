@@ -40,7 +40,7 @@
       "id": "2521",
       "nombre": "Bárbara",
       "password": "qwerty",
-      "rol": "Docente"
+      "rol": "Docente" 
     },
     {
       "id": "9064",
@@ -128,6 +128,11 @@
       "id": "ae28",
       "clases": "Calidad de software-005D",
       "qr": "Calidad de software-005D-2024-11-25T03:53:04.543Z"
+    },
+    {
+      "id": "40e4",
+      "clases": "Aplicaciones moviles-001D",
+      "qr": "Aplicaciones moviles-001D-2024-11-25T19:09:03.612Z"
     }
   ]
 }
