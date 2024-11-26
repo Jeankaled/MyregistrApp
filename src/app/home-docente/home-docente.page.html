@@ -18,20 +18,47 @@
     </ion-card-header>
     <ion-card-content>
       <ion-list>
-        <ion-item>
+        <ion-item >
           <ion-label>Aplicaciones moviles-001D</ion-label>
-        </ion-item>
-  
+          <ion-button color="primary" class="ion-padding-horizontal" (click)="generarQR('Aplicaciones moviles-001D')">
+            Generar clase
+          </ion-button>
+        </ion-item>   
+
         <ion-item>
           <ion-label>Programacion Web-004D</ion-label>
+          <ion-button  color="primary" class="ion-padding-horizontal" (click)="generarQR('Programacion Web-004D')">
+            Generar clase
+          </ion-button>
         </ion-item>
-  
+
         <ion-item>
           <ion-label>Aplicaciones moviles-002D</ion-label>
+          <ion-button color="primary" class="ion-padding-horizontal" (click)="generarQR('Aplicaciones moviles-002D')">
+            Generar clase
+          </ion-button>
         </ion-item>
+
+        <ion-item>
+          <ion-label>Calidad de software-005D</ion-label>
+          <ion-button color="primary" class="ion-padding-horizontal" (click)="generarQR('Calidad de software-005D')">
+            Generar clase
+          </ion-button>
+        </ion-item>
+
       </ion-list>
+      <div *ngIf="codigoQR" style="text-align: center; margin-top: 20px;">
+        <h2>
+          {{codigoQR}}
+        </h2>
+        <qr-code [value]="codigoQR" class="qr-code"></qr-code>
+      </div>
+      
+
     </ion-card-content>
   </ion-card>
+
+
 </ion-content>
 
 
