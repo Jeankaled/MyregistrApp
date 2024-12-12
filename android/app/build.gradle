@@ -4,11 +4,11 @@ android {
 
   packagingOptions {
     resources {
-      excludes += ['META-INF/NOTICE', 'META-INF/LICENSE']
+      excludes += ['META-INF/NOTICE', 'META-INF/LICENSE', 'META-INF/DEPENDENCIES']
     }
   }
   namespace "io.ionic.starter"
-  compileSdkVersion implementationSdkVersion
+  compileSdkVersion 35
   defaultConfig {
         applicationId "io.ionic.starter"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -37,9 +37,6 @@ repositories {
 }
 
 dependencies {
-    implementation("com.google.guava:guava:32.1.2-jre")
-    api("org.apache.juneau:juneau-marshall:8.2.0")
-    implementation 'com.journeyapps:zxing-android-embedded:3.3.0'
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleDependency
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
